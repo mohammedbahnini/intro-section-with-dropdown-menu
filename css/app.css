@@ -245,6 +245,11 @@ header .wrapper .nav .btns {
             flex-direction: column;
   }
 }
+header .wrapper .nav .btns .btn {
+  text-decoration: none;
+  color: dimgray;
+  font-size: 0.8rem;
+}
 @media screen and (max-width: 768px) {
   header .wrapper .nav .btns .btn {
     text-align: center;

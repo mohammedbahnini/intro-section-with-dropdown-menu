@@ -188,6 +188,9 @@ header{
                 }
                 .btn{
                     @extend %btn;
+                    text-decoration: none;
+                    color : $md-gray;
+                    font-size : .8rem;
                     @include mobile{
                         text-align: center;
                     }
