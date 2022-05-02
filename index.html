@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>Intro section with dropdown menu</title>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Logo">
+            </div>
+            <div class="open-btn-wrapper">
+                <span class="menu-open for-mobile"><i class="fa-solid fa-bars"></i></span>
+            </div>
+            <div class="nav">
+
+                <div class="nav-wrapper">
+                    <span class="menu-close for-mobile"><i class="fa-solid fa-xmark"></i></span>
+                    <nav>
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="#">Features <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-nav right">
+                                    <div class="sub-nav-content">
+                                        <li class="sub-nav-item ">
+                                            <a href="# ">
+                                                <img src="images/icon-todo.svg" alt=""> Todo List
+                                            </a>
+                                        </li>
+                                        <li class="sub-nav-item">
+                                            <a href="# ">
+                                                <img src="images/icon-calendar.svg" alt=""> Calendar
+                                            </a>
+                                        </li>
+                                        <li class="sub-nav-item">
+                                            <a href="# ">
+                                                <img src="images/icon-reminders.svg" alt=""> Reminder
+                                            </a>
+                                        </li>
+                                        <li class="sub-nav-item">
+                                            <a href="# ">
+                                                <img src="images/icon-planning.svg" alt=""> Planing
+                                            </a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Company <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-nav left">
+                                    <div class="sub-nav-content">
+                                        <li class="sub-nav-item">
+                                            <a href="#">History</a>
+                                        </li>
+                                        <li class="sub-nav-item">
+                                            <a href="#">Our Team</a>
+                                        </li>
+                                        <li class="sub-nav-item">
+                                            <a href="#">Blog</a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">About</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="btns">
+                        <a href="#" class="btn">Login</a>
+                        <a href="#" class="btn btn-outline">Register </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro-text">
+                <h1 class="heading">Make remote work</h1>
+                <p class="text">Get your team in sync, no matter your location. Streamline processes,
+                    create team rituals, and watch productivity soar.</p>
+                <a href="#" class="btn btn-fill">Learn more</a>
+                <div class="clients">
+                    <div class="client">
+                        <img src="images/client-databiz.svg" alt="">
+                    </div>
+                    <div class="client">
+                        <img src="images/client-audiophile.svg" alt="">
+                    </div>
+                    <div class="client">
+                        <img src="images/client-meet.svg" alt="">
+                    </div>
+                    <div class="client">
+                        <img src="images/client-maker.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="intro-img">
+                <img src="images/image-hero-desktop.png " class=" for-lg" alt="Hero">
+                <img src="images/image-hero-mobile.png" class=" for-mobile" alt="Hero">
+            </div>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
